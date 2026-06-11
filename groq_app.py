@@ -70,7 +70,7 @@ def inject_custom_css():
 # CONFIGURATION & SETUP
 # ==========================================
 
-#GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 TARGET_MODEL = "llama-3.1-8b-instant"
 
 # Initialize Client
