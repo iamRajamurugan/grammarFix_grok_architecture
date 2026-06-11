@@ -6,7 +6,7 @@ import time
 # PAGE CONFIGURATION & STYLING
 # ==========================================
 st.set_page_config(
-    page_title="Synthium Suite Grammar Checker", 
+    page_title="Synthium Suite Grammar Checker (updated architecture)", 
     layout="wide", 
     page_icon="⚡",
     initial_sidebar_state="expanded"
@@ -108,9 +108,9 @@ def main():
     render_sidebar()
     
     # Header Module
-    st.title("⚡ Synthium Suite Grammar Checker")
-    st.markdown("Ultra-fast, context-aware grammar correction powered by Groq LPU architecture.")
-    st.markdown("---")
+    st.title("Synthium Suite Grammar Checker")
+    # st.markdown("Ultra-fast, context-aware grammar correction.")
+    # st.markdown("---")
 
     # Workspace columns
     col1, col2 = st.columns([1, 1], gap="large")
